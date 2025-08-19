@@ -1,0 +1,75 @@
+		Revisão para a prova.
+
+
+1.O que é o retorno NaN em Javascript? Cite um tipo de condição em que este tipo pode
+ser gerado.
+"NaN" significa "Not a Number" (não é um número). Ele aparece quando uma operação matemática falha e não retorna um valor numérico válido.
+Exemplo de quando ocorre: ao tentar dividir uma palavra por um número, como "abc" dividido por 2.
+2.É possível adicionar uma configuração CSS de múltiplas formas em um código HTML. Cite essas formas e dê exemplos de cada uma. Cite também a diferença entre utilizar
+cada uma dessas formas.
+Existem três formas principais:
+Inline: o estilo é aplicado diretamente no elemento HTML.
+Interno (Internal): o CSS é colocado dentro da tag <style> no <head> da página.
+Externo (External): o CSS fica em um arquivo separado (.css) e é vinculado ao HTML com a tag <link>.
+Diferença entre elas:
+Inline: afeta apenas um elemento e é difícil de manter em projetos grandes.
+Interno: bom para estilos específicos de uma página.
+Externo: ideal para projetos maiores, permite reutilização e melhor organização.
+3.Explique a diferença entre as tags <div> e <span>. Dê exemplos de quando usar cada uma.
+A tag <div> é um elemento de bloco que ocupa toda a largura e começa em uma nova linha. Serve para agrupar grandes partes da página, como seções ou blocos. Já a tag <span> é um elemento inline que ocupa só o espaço do conteúdo e fica dentro da linha. Serve para destacar pequenas partes do texto, como uma palavra.
+Exemplo <div>: para criar um cabeçalho ou uma área do site.
+Exemplo <span>: para mudar a cor de uma palavra dentro de um parágrafo.
+4.Descreva o propósito da tag <head> em um documento HTML e cite pelo menos três elementos que podem estar dentro dela.
+A tag <head> contém informações sobre a página, que não são exibidas diretamente ao usuário.
+Dentro dela, podem estar:
+O título da página (com a tag <title>).
+Metadados (como codificação de caracteres).
+Link para arquivos de estilo (CSS).
+5. Diferencie as listas ordenadas (<ol>) das listas não ordenadas (<ul>). Crie um exemplo
+de cada.
+As listas ordenadas (<ol>) exibem os itens numerados em sequência, indicando uma ordem importante, como passos ou prioridades. Já as listas não ordenadas (<ul>) mostram os itens com marcadores (como bolinhas), sem indicar nenhuma ordem específica.
+Exemplo de lista ordenada (<ol>):
+Acordar
+Tomar café
+Ir trabalhar
+Exemplo de lista não ordenada (<ul>):
+Maçã
+Banana
+Laranja.
+6. O que significa a propriedade display no CSS? Compare o comportamento de block,inline e inline-block.
+A propriedade display no CSS define como um elemento é exibido na página, controlando seu comportamento no layout.
+block: o elemento ocupa toda a largura disponível, começa em uma nova linha e pode ter largura e altura definidas (exemplo: <div>).
+inline: o elemento ocupa só o espaço necessário, fica na mesma linha dos outros elementos e não aceita largura ou altura (exemplo: <span>).
+inline-block: combina os dois anteriores — fica na mesma linha, mas permite definir largura e altura.
+7. Explique o que é o Box Model no CSS e descreva suas partes de dentro para fora.
+O Box Model no CSS é uma forma de entender como os elementos são organizados e exibidos na página, como uma caixa composta por camadas. De dentro para fora, ele é formado por: o conteúdo (texto ou imagem), o preenchimento (padding), que é o espaço entre o conteúdo e a borda; a borda (border), que envolve o conteúdo e o padding; e a margem (margin), que é o espaço externo entre a borda e outros elementos ao redor.
+8. Qual é a função das tags semânticas no HTML5, como <header>, <section>, <article> e <footer>? Dê exemplos de uso.
+As tags semânticas no HTML5, como `<header>`, `<section>`, `<article>` e `<footer>`, servem para dar significado ao conteúdo da página, ajudando na organização, acessibilidade e SEO.
+Por exemplo, `<header>` define o cabeçalho da página ou de uma seção; `<section>` agrupa conteúdos relacionados; `<article>` representa um conteúdo independente, como uma notícia; e `<footer>` é usado para o rodapé, com informações finais ou contatos. Assim, fica mais fácil para navegadores e leitores de tela entenderem a estrutura do site.
+9. Explique o que é e para que serve o atributo target="_blank" em um link. Quais cuidados de segurança devem ser tomados ao utilizá-lo?
+O atributo `target="_blank"` em um link faz com que ele abra a página vinculada em uma nova aba ou janela do navegador. Isso é útil para manter o usuário na sua página original enquanto ele acessa o link.
+Porém, ao usar `target="_blank"`, é importante adicionar também `rel="noopener noreferrer"` para evitar riscos de segurança, como o chamado tabnabbing, onde a nova aba pode acessar e manipular a página original. Esses atributos protegem contra esse tipo de ataque.
+10. O que é a propriedade flex no CSS e como ela é usada?
+A propriedade `flex` no CSS é usada dentro de um contêiner com `display: flex` para controlar como os itens filhos crescem, encolhem e ocupam espaço dentro desse contêiner. Ela ajuda a criar layouts flexíveis e responsivos, permitindo que os elementos se ajustem automaticamente ao tamanho disponível.
+Basicamente, `flex` define a proporção de crescimento, encolhimento e o tamanho base do item no espaço do contêiner. É muito usada para organizar itens em linha ou coluna de forma eficiente e adaptável.
+11. O que são transições (transition) no CSS e como podem ser usadas para criar efeitos de animação simples? Crie um exemplo básico.
+Transições (transition) no CSS são efeitos que suavizam a mudança entre estados diferentes de um elemento, como cor, tamanho ou posição, fazendo com que a alteração aconteça de forma gradual, em vez de instantânea. Isso cria animações simples e mais agradáveis visualmente. Por exemplo, ao passar o mouse sobre um botão, sua cor pode mudar lentamente em vez de mudar de repente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
